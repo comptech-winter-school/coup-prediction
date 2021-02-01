@@ -1,0 +1,1002 @@
+,country,year
+0,Burkina Faso,2014
+1,Burundi,2015
+2,Chad,2006
+3,Egypt,2011
+4,Egypt,2013
+5,Fiji,2006
+6,Guinea,2008
+7,Guinea,2011
+8,Guinea-Bissau,2008
+9,Guinea-Bissau,2010
+10,Guinea-Bissau,2012
+11,Honduras,2009
+12,Lesotho,2014
+13,Madagascar,2009
+14,Madagascar,2010
+15,Maldives,2012
+16,Mali,2012
+17,Mali,2012
+18,Mauritania,2008
+19,Niger,2010
+20,Papua New Guinea,2012
+21,Sudan,2012
+22,Thailand,2006
+23,Thailand,2014
+24,Ukraine,2014
+25,Algeria,2019
+26,Burkina Faso,2015
+27,East Timor,2008
+28,Gabon,2019
+29,Gambia,2014
+30,Nigeria,2017
+31,South Sudan,2013
+32,Sudan,2019
+33,Tunisia,2019
+34,Venezuela,2019
+35,Venezuela,2019
+36,Yemen Arab Republic,2011
+37,Yemen Arab Republic,2015
+38,Zimbabwe,2017
+39,Kyrgyzstan,2010
+40,Armenia,2016
+41,Chad,2008
+42,Guinea,2009
+43,Laos,2007
+44,Libya,2011
+45,Libya,2014
+46,Montenegro,2016
+47,Turkey,2016
+48,Ivory Coast,2012
+49,Eritrea,2013
+50,Chad,2013
+51,Democratic Republic of the Congo,2013
+52,Burkina Faso,2016
+53,Philippines,2006
+54,Zimbabwe,2006
+55,Chad,2006
+56,Gambia,2006
+57,Burundi,2006
+58,Georgia,2006
+59,Madagascar,2006
+60,Zimbabwe,2007
+61,Zimbabwe,2007
+62,Guinea-Bissau,2008
+63,Lesotho,2009
+64,Ethiopia,2009
+65,Turkey,2010
+66,Bahrain,2011
+67,Bangladesh,2012
+68,Guinea-Bissau,2012
+69,Venezuela,2015
+70,Niger,2015
+71,Afghanistan,1963
+72,Afghanistan,1973
+73,Afghanistan,1973
+74,Afghanistan,1976
+75,Afghanistan,1978
+76,Afghanistan,1979
+77,Afghanistan,1979
+78,Afghanistan,1990
+79,Afghanistan,1992
+80,Afghanistan,1996
+81,Afghanistan,2001
+82,Albania,1946
+83,Albania,1998
+84,Algeria,1962
+85,Algeria,1964
+86,Algeria,1965
+87,Algeria,1967
+88,Algeria,1991
+89,Algeria,1992
+90,Algeria,1992
+91,Algeria,1994
+92,Angola,1975
+93,Angola,1977
+94,Argentina,1951
+95,Argentina,1952
+96,Argentina,1955
+97,Argentina,1955
+98,Argentina,1955
+99,Argentina,1956
+100,Argentina,1957
+101,Argentina,1960
+102,Argentina,1961
+103,Argentina,1962
+104,Argentina,1962
+105,Argentina,1963
+106,Argentina,1966
+107,Argentina,1970
+108,Argentina,1971
+109,Argentina,1971
+110,Argentina,1971
+111,Argentina,1975
+112,Argentina,1976
+113,Argentina,1981
+114,Argentina,1982
+115,Argentina,1987
+116,Argentina,1988
+117,Argentina,1990
+118,Azerbaijan,1992
+119,Azerbaijan,1992
+120,Azerbaijan,1994
+121,Azerbaijan,1995
+122,Azerbaijan,2005
+123,Bangladesh,1975
+124,Bangladesh,1975
+125,Bangladesh,1975
+126,Bangladesh,1977
+127,Bangladesh,1981
+128,Bangladesh,1982
+129,Bangladesh,1990
+130,Bangladesh,1996
+131,Benin,1963
+132,Benin,1965
+133,Benin,1965
+134,Benin,1967
+135,Benin,1969
+136,Benin,1972
+137,Benin,1972
+138,Benin,1975
+139,Benin,1975
+140,Benin,1977
+141,Bolivia,1946
+142,Bolivia,1947
+143,Bolivia,1950
+144,Bolivia,1951
+145,Bolivia,1952
+146,Bolivia,1953
+147,Bolivia,1953
+148,Bolivia,1958
+149,Bolivia,1959
+150,Bolivia,1960
+151,Bolivia,1962
+152,Bolivia,1964
+153,Bolivia,1968
+154,Bolivia,1969
+155,Bolivia,1970
+156,Bolivia,1970
+157,Bolivia,1971
+158,Bolivia,1971
+159,Bolivia,1973
+160,Bolivia,1974
+161,Bolivia,1974
+162,Bolivia,1974
+163,Bolivia,1977
+164,Bolivia,1978
+165,Bolivia,1978
+166,Bolivia,1978
+167,Bolivia,1979
+168,Bolivia,1979
+169,Bolivia,1979
+170,Bolivia,1980
+171,Bolivia,1981
+172,Bolivia,1981
+173,Bolivia,1981
+174,Bolivia,1981
+175,Bolivia,1982
+176,Bolivia,1984
+177,Bolivia,1984
+178,Brazil,1945
+179,Brazil,1955
+180,Brazil,1959
+181,Brazil,1961
+182,Brazil,1963
+183,Brazil,1964
+184,Brazil,1969
+185,Bulgaria,1989
+186,Burkina Faso,1966
+187,Burkina Faso,1974
+188,Burkina Faso,1980
+189,Burkina Faso,1982
+190,Burkina Faso,1983
+191,Burkina Faso,1987
+192,Burkina Faso,1989
+193,Burundi,1965
+194,Burundi,1966
+195,Burundi,1966
+196,Burundi,1976
+197,Burundi,1976
+198,Burundi,1987
+199,Burundi,1993
+200,Burundi,1993
+201,Burundi,1993
+202,Burundi,1994
+203,Burundi,1996
+204,Burundi,2001
+205,Burundi,2001
+206,Cambodia,1970
+207,Cambodia,1975
+208,Cambodia,1977
+209,Cambodia,1979
+210,Cambodia,1994
+211,Cambodia,1997
+212,Cambodia,2000
+213,Cameroon,1984
+214,Central African Republic,1966
+215,Central African Republic,1969
+216,Central African Republic,1976
+217,Central African Republic,1979
+218,Central African Republic,1981
+219,Central African Republic,1982
+220,Central African Republic,2001
+221,Central African Republic,2002
+222,Central African Republic,2003
+223,Chad,1965
+224,Chad,1971
+225,Chad,1975
+226,Chad,1975
+227,Chad,1977
+228,Chad,1982
+229,Chad,1989
+230,Chad,1990
+231,Chad,1991
+232,Chad,1992
+233,Chile,1948
+234,Chile,1970
+235,Chile,1973
+236,Chile,1973
+237,Chile,1975
+238,China,1949
+239,China,1949
+240,China,1971
+241,China,1980
+242,Colombia,1953
+243,Colombia,1957
+244,Colombia,1958
+245,Colombia,1958
+246,Colombia,1961
+247,Comoros,1975
+248,Comoros,1977
+249,Comoros,1978
+250,Comoros,1989
+251,Comoros,1992
+252,Comoros,1995
+253,Comoros,1995
+254,Comoros,1999
+255,Comoros,2000
+256,Democratic Republic of the Congo,1963
+257,Democratic Republic of the Congo,1966
+258,Democratic Republic of the Congo,1968
+259,Democratic Republic of the Congo,1968
+260,Democratic Republic of the Congo,1968
+261,Democratic Republic of the Congo,1969
+262,Democratic Republic of the Congo,1969
+263,Democratic Republic of the Congo,1970
+264,Democratic Republic of the Congo,1972
+265,Democratic Republic of the Congo,1977
+266,Democratic Republic of the Congo,1978
+267,Democratic Republic of the Congo,1979
+268,Democratic Republic of the Congo,1979
+269,Democratic Republic of the Congo,1997
+270,Democratic Republic of the Congo,2005
+271,Costa Rica,1946
+272,Costa Rica,1948
+273,Costa Rica,1948
+274,Costa Rica,1948
+275,Costa Rica,1954
+276,Ivory Coast,1991
+277,Ivory Coast,1999
+278,Ivory Coast,2000
+279,Ivory Coast,2000
+280,Ivory Coast,2001
+281,Ivory Coast,2002
+282,Cuba,1947
+283,Cuba,1952
+284,Cuba,1953
+285,Cuba,1956
+286,Cuba,1957
+287,Cuba,1957
+288,Cuba,1959
+289,Cuba,1961
+290,Cyprus,1974
+291,Democratic Republic of the Congo,1960
+292,Democratic Republic of the Congo,1965
+293,Democratic Republic of the Congo,1966
+294,Democratic Republic of the Congo,1975
+295,Democratic Republic of the Congo,1992
+296,Democratic Republic of the Congo,1997
+297,Democratic Republic of the Congo,2003
+298,Democratic Republic of the Congo,2004
+299,Djibouti,1991
+300,Dominica,1981
+301,Dominican Republic,1949
+302,Dominican Republic,1959
+303,Dominican Republic,1961
+304,Dominican Republic,1962
+305,Dominican Republic,1962
+306,Dominican Republic,1963
+307,Dominican Republic,1965
+308,Dominican Republic,1965
+309,Dominican Republic,1965
+310,Ecuador,1947
+311,Ecuador,1947
+312,Ecuador,1947
+313,Ecuador,1952
+314,Ecuador,1954
+315,Ecuador,1956
+316,Ecuador,1961
+317,Ecuador,1963
+318,Ecuador,1966
+319,Ecuador,1970
+320,Ecuador,1972
+321,Ecuador,1975
+322,Ecuador,1976
+323,Ecuador,1986
+324,Ecuador,2000
+325,Ecuador,2005
+326,Egypt,1947
+327,Egypt,1952
+328,Egypt,1953
+329,Egypt,1954
+330,Egypt,1954
+331,Egypt,1954
+332,Egypt,1954
+333,Egypt,1958
+334,Egypt,1966
+335,Egypt,1967
+336,Egypt,1974
+337,El Salvador,1948
+338,El Salvador,1949
+339,El Salvador,1952
+340,El Salvador,1960
+341,El Salvador,1961
+342,El Salvador,1972
+343,El Salvador,1979
+344,El Salvador,1980
+345,Equatorial Guinea,1969
+346,Equatorial Guinea,1979
+347,Equatorial Guinea,1986
+348,Equatorial Guinea,2004
+349,Ethiopia,1960
+350,Ethiopia,1960
+351,Ethiopia,1974
+352,Ethiopia,1974
+353,Ethiopia,1977
+354,Ethiopia,1977
+355,Ethiopia,1989
+356,Ethiopia,1991
+357,Ethiopia,1991
+358,Fiji,1987
+359,Fiji,1987
+360,Fiji,2000
+361,Fiji,2000
+362,Gabon,1964
+363,Gabon,1964
+364,Gambia,1981
+365,Gambia,1994
+366,Gambia,1994
+367,Georgia,1992
+368,Georgia,1999
+369,Georgia,2003
+370,German Democratic Republic,1953
+371,German Democratic Republic,1971
+372,German Democratic Republic,1989
+373,German Democratic Republic,1989
+374,Ghana,1961
+375,Ghana,1966
+376,Ghana,1967
+377,Ghana,1967
+378,Ghana,1972
+379,Ghana,1972
+380,Ghana,1978
+381,Ghana,1979
+382,Ghana,1979
+383,Ghana,1981
+384,Ghana,1982
+385,Ghana,1983
+386,Ghana,1984
+387,Greece,1951
+388,Greece,1967
+389,Greece,1967
+390,Greece,1973
+391,Greece,1973
+392,Greece,1975
+393,Grenada,1979
+394,Grenada,1983
+395,Grenada,1983
+396,Grenada,1983
+397,Guatemala,1946
+398,Guatemala,1949
+399,Guatemala,1950
+400,Guatemala,1954
+401,Guatemala,1954
+402,Guatemala,1955
+403,Guatemala,1955
+404,Guatemala,1957
+405,Guatemala,1960
+406,Guatemala,1962
+407,Guatemala,1963
+408,Guatemala,1982
+409,Guatemala,1982
+410,Guatemala,1983
+411,Guatemala,1988
+412,Guatemala,1989
+413,Guatemala,1993
+414,Guinea,1965
+415,Guinea,1969
+416,Guinea,1970
+417,Guinea,1984
+418,Guinea,1985
+419,Guinea,1996
+420,Guinea-Bissau,1980
+421,Guinea-Bissau,1985
+422,Guinea-Bissau,1998
+423,Guinea-Bissau,1999
+424,Guinea-Bissau,2000
+425,Guinea-Bissau,2001
+426,Guinea-Bissau,2003
+427,Guinea-Bissau,2005
+428,Guyana,1983
+429,Haiti,1946
+430,Haiti,1950
+431,Haiti,1956
+432,Haiti,1957
+433,Haiti,1957
+434,Haiti,1957
+435,Haiti,1957
+436,Haiti,1957
+437,Haiti,1958
+438,Haiti,1963
+439,Haiti,1964
+440,Haiti,1968
+441,Haiti,1970
+442,Haiti,1984
+443,Haiti,1986
+444,Haiti,1988
+445,Haiti,1988
+446,Haiti,1989
+447,Haiti,1990
+448,Haiti,1991
+449,Haiti,1991
+450,Haiti,1994
+451,Haiti,2000
+452,Haiti,2004
+453,Honduras,1956
+454,Honduras,1956
+455,Honduras,1957
+456,Honduras,1959
+457,Honduras,1963
+458,Honduras,1972
+459,Honduras,1975
+460,Honduras,1977
+461,Honduras,1978
+462,Hungary,1946
+463,Hungary,1947
+464,Hungary,1949
+465,Hungary,1956
+466,Hungary,1956
+467,Hungary,1988
+468,Indonesia,1952
+469,Indonesia,1957
+470,Indonesia,1958
+471,Indonesia,1965
+472,Indonesia,1966
+473,Indonesia,1998
+474,Indonesia,2001
+475,Iran,1953
+476,Iran,1953
+477,Iran,1979
+478,Iran,1979
+479,Iran,1980
+480,Iran,1980
+481,Iran,1980
+482,Iran,1981
+483,Iran,1982
+484,Iraq,1958
+485,Iraq,1958
+486,Iraq,1959
+487,Iraq,1963
+488,Iraq,1963
+489,Iraq,1963
+490,Iraq,1964
+491,Iraq,1965
+492,Iraq,1966
+493,Iraq,1968
+494,Iraq,1968
+495,Iraq,1970
+496,Iraq,1973
+497,Iraq,1979
+498,Iraq,1995
+499,Iraq,1995
+500,Iraq,1995
+501,Italy,1947
+502,Italy,1993
+503,Jamaica,1980
+504,Jordan,1957
+505,Jordan,1958
+506,Jordan,1959
+507,Jordan,1970
+508,Kenya,1982
+509,Kyrgyzstan,2005
+510,Laos,1959
+511,Laos,1960
+512,Laos,1960
+513,Laos,1960
+514,Laos,1964
+515,Laos,1965
+516,Laos,1965
+517,Laos,1966
+518,Laos,1973
+519,Laos,1975
+520,Laos,1975
+521,Lebanon,1949
+522,Lebanon,1961
+523,Lebanon,1976
+524,Lesotho,1970
+525,Lesotho,1974
+526,Lesotho,1986
+527,Lesotho,1990
+528,Lesotho,1990
+529,Lesotho,1991
+530,Lesotho,1994
+531,Lesotho,1996
+532,Liberia,1963
+533,Liberia,1980
+534,Liberia,1980
+535,Liberia,1984
+536,Liberia,1985
+537,Liberia,1985
+538,Liberia,1986
+539,Liberia,1988
+540,Liberia,1990
+541,Liberia,1990
+542,Liberia,1994
+543,Liberia,1994
+544,Liberia,2003
+545,Libya,1969
+546,Libya,1969
+547,Libya,1975
+548,Libya,1975
+549,Libya,1986
+550,Libya,1993
+551,Luxembourg,1946
+552,Madagascar,1972
+553,Madagascar,1972
+554,Madagascar,1974
+555,Madagascar,1975
+556,Madagascar,1982
+557,Madagascar,1989
+558,Madagascar,1990
+559,Malawi,2001
+560,Malaysia,1965
+561,Malaysia,1969
+562,Malaysia,1985
+563,Maldives,1980
+564,Maldives,1983
+565,Maldives,1988
+566,Mali,1968
+567,Mali,1969
+568,Mali,1971
+569,Mali,1978
+570,Mali,1991
+571,Mali,1991
+572,Mali,1993
+573,Mali,1996
+574,Mauritania,1978
+575,Mauritania,1979
+576,Mauritania,1980
+577,Mauritania,1981
+578,Mauritania,1982
+579,Mauritania,1984
+580,Mauritania,1987
+581,Mauritania,2003
+582,Mauritania,2004
+583,Mauritania,2004
+584,Mauritania,2005
+585,Mexico,1971
+586,Mongolia,1984
+587,Mongolia,1990
+588,Morocco,1963
+589,Morocco,1971
+590,Morocco,1972
+591,Mozambique,1975
+592,Mozambique,1991
+593,Myanmar,1948
+594,Myanmar,1958
+595,Myanmar,1962
+596,Myanmar,1988
+597,Myanmar,1988
+598,Myanmar,1992
+599,Myanmar,2002
+600,Nepal,1960
+601,Nepal,2002
+602,Nepal,2005
+603,Nicaragua,1947
+604,Nicaragua,1957
+605,Nicaragua,1967
+606,Nicaragua,1978
+607,Nicaragua,1979
+608,Nicaragua,1980
+609,Niger,1974
+610,Niger,1975
+611,Niger,1976
+612,Niger,1983
+613,Niger,1996
+614,Niger,1998
+615,Niger,1999
+616,Nigeria,1962
+617,Nigeria,1966
+618,Nigeria,1966
+619,Nigeria,1975
+620,Nigeria,1976
+621,Nigeria,1983
+622,Nigeria,1985
+623,Nigeria,1985
+624,Nigeria,1990
+625,Nigeria,1993
+626,Nigeria,1993
+627,Nigeria,1995
+628,Nigeria,1997
+629,Nigeria,2004
+630,Oman,1970
+631,Oman,2005
+632,Pakistan,1951
+633,Pakistan,1958
+634,Pakistan,1958
+635,Pakistan,1969
+636,Pakistan,1971
+637,Pakistan,1977
+638,Pakistan,1984
+639,Pakistan,1999
+640,Panama,1949
+641,Panama,1951
+642,Panama,1959
+643,Panama,1968
+644,Panama,1969
+645,Panama,1969
+646,Panama,1982
+647,Panama,1982
+648,Panama,1983
+649,Panama,1988
+650,Panama,1989
+651,Panama,1989
+652,Panama,1990
+653,Panama,1990
+654,Panama,1991
+655,Panama,1995
+656,Papua New Guinea,1990
+657,Paraguay,1947
+658,Paraguay,1947
+659,Paraguay,1948
+660,Paraguay,1948
+661,Paraguay,1948
+662,Paraguay,1949
+663,Paraguay,1949
+664,Paraguay,1949
+665,Paraguay,1954
+666,Paraguay,1955
+667,Paraguay,1959
+668,Paraguay,1989
+669,Paraguay,1996
+670,Paraguay,2000
+671,Peru,1948
+672,Peru,1948
+673,Peru,1954
+674,Peru,1956
+675,Peru,1962
+676,Peru,1963
+677,Peru,1968
+678,Peru,1975
+679,Peru,1976
+680,Peru,1992
+681,Peru,2000
+682,Philippines,1950
+683,Philippines,1986
+684,Philippines,1986
+685,Philippines,1986
+686,Philippines,1987
+687,Philippines,1987
+688,Philippines,1989
+689,Philippines,1990
+690,Philippines,1990
+691,Philippines,2001
+692,Philippines,2001
+693,Philippines,2003
+694,Poland,1980
+695,Poland,1981
+696,Portugal,1950
+697,Portugal,1959
+698,Portugal,1962
+699,Portugal,1974
+700,Portugal,1974
+701,Portugal,1974
+702,Portugal,1975
+703,Portugal,1975
+704,Portugal,1975
+705,Qatar,1972
+706,Qatar,1995
+707,Qatar,1996
+708,Republic of Korea,1960
+709,Republic of Korea,1961
+710,Republic of Korea,1961
+711,Republic of Korea,1962
+712,Republic of Korea,1979
+713,Republic of Korea,1980
+714,Republic of Korea,1980
+715,Republic of Korea,1990
+716,Republic of Vietnam,1960
+717,Republic of Vietnam,1963
+718,Republic of Vietnam,1964
+719,Republic of Vietnam,1964
+720,Republic of Vietnam,1965
+721,Republic of Vietnam,1965
+722,Republic of Vietnam,1965
+723,Republic of Vietnam,1975
+724,Republic of Vietnam,1975
+725,Rumania,1947
+726,Rumania,1989
+727,Rumania,1991
+728,Russia,1993
+729,Russia,1993
+730,Rwanda,1973
+731,Rwanda,1980
+732,Rwanda,1994
+733,Sao Tome and Principe,1995
+734,Sao Tome and Principe,2003
+735,Senegal,1962
+736,Serbia,1999
+737,Seychelles,1977
+738,Seychelles,1979
+739,Seychelles,1981
+740,Sierra Leone,1967
+741,Sierra Leone,1967
+742,Sierra Leone,1967
+743,Sierra Leone,1968
+744,Sierra Leone,1971
+745,Sierra Leone,1987
+746,Sierra Leone,1992
+747,Sierra Leone,1992
+748,Sierra Leone,1993
+749,Sierra Leone,1995
+750,Sierra Leone,1996
+751,Sierra Leone,1996
+752,Sierra Leone,1997
+753,Sierra Leone,1998
+754,Somalia,1961
+755,Somalia,1969
+756,Somalia,1970
+757,Somalia,1970
+758,Somalia,1971
+759,Somalia,1978
+760,Somalia,1991
+761,Spain,1978
+762,Spain,1980
+763,Spain,1981
+764,Spain,1982
+765,Sri Lanka,1962
+766,Sri Lanka,1966
+767,Sudan,1955
+768,Sudan,1958
+769,Sudan,1959
+770,Sudan,1964
+771,Sudan,1966
+772,Sudan,1969
+773,Sudan,1969
+774,Sudan,1970
+775,Sudan,1970
+776,Sudan,1971
+777,Sudan,1971
+778,Sudan,1973
+779,Sudan,1975
+780,Sudan,1976
+781,Sudan,1977
+782,Sudan,1981
+783,Sudan,1985
+784,Sudan,1985
+785,Sudan,1989
+786,Sudan,1990
+787,Sudan,1990
+788,Sudan,1990
+789,Sudan,1991
+790,Sudan,1992
+791,Sudan,1996
+792,Sudan,2004
+793,Surinam,1980
+794,Surinam,1980
+795,Surinam,1980
+796,Surinam,1981
+797,Surinam,1982
+798,Surinam,1982
+799,Surinam,1983
+800,Surinam,1983
+801,Surinam,1986
+802,Surinam,1990
+803,Eswatini,1983
+804,Eswatini,1983
+805,Eswatini,1984
+806,Syria,1949
+807,Syria,1949
+808,Syria,1949
+809,Syria,1951
+810,Syria,1952
+811,Syria,1954
+812,Syria,1955
+813,Syria,1956
+814,Syria,1961
+815,Syria,1962
+816,Syria,1962
+817,Syria,1962
+818,Syria,1963
+819,Syria,1963
+820,Syria,1963
+821,Syria,1966
+822,Syria,1966
+823,Syria,1969
+824,Syria,1970
+825,Syria,1982
+826,Syria,1987
+827,Tajikistan,1991
+828,Tajikistan,1992
+829,Tajikistan,1992
+830,Tajikistan,1992
+831,Tajikistan,1997
+832,Tanzania,1964
+833,Tanzania,1967
+834,Tanzania,1983
+835,Thailand,1947
+836,Thailand,1947
+837,Thailand,1951
+838,Thailand,1951
+839,Thailand,1952
+840,Thailand,1953
+841,Thailand,1957
+842,Thailand,1958
+843,Thailand,1971
+844,Thailand,1973
+845,Thailand,1976
+846,Thailand,1977
+847,Thailand,1977
+848,Thailand,1981
+849,Thailand,1984
+850,Thailand,1985
+851,Thailand,1991
+852,Togo,1963
+853,Togo,1963
+854,Togo,1964
+855,Togo,1965
+856,Togo,1966
+857,Togo,1967
+858,Togo,1967
+859,Togo,1970
+860,Togo,1986
+861,Togo,1991
+862,Togo,1991
+863,Togo,1991
+864,Togo,1991
+865,Togo,1991
+866,Togo,2005
+867,Trinidad and Tobago,1970
+868,Trinidad and Tobago,1990
+869,Tunisia,1957
+870,Tunisia,1962
+871,Tunisia,1987
+872,Tunisia,1991
+873,Turkey,1960
+874,Turkey,1962
+875,Turkey,1963
+876,Turkey,1971
+877,Turkey,1980
+878,Turkey,1997
+879,Turkmenistan,2002
+880,Uganda,1966
+881,Uganda,1971
+882,Uganda,1974
+883,Uganda,1974
+884,Uganda,1975
+885,Uganda,1979
+886,Uganda,1980
+887,Uganda,1985
+888,Uganda,1986
+889,Uganda,1986
+890,Uganda,1986
+891,Uganda,1987
+892,United Arab Emirates,1972
+893,United States of America,1948
+894,Uruguay,1973
+895,Uruguay,1973
+896,Uruguay,1976
+897,Venezuela,1946
+898,Venezuela,1948
+899,Venezuela,1952
+900,Venezuela,1958
+901,Venezuela,1958
+902,Venezuela,1958
+903,Venezuela,1958
+904,Venezuela,1960
+905,Venezuela,1960
+906,Venezuela,1961
+907,Venezuela,1961
+908,Venezuela,1962
+909,Venezuela,1962
+910,Venezuela,1966
+911,Venezuela,1992
+912,Venezuela,1992
+913,Venezuela,2002
+914,Venezuela,2002
+915,Yemen Arab Republic,1948
+916,Yemen Arab Republic,1955
+917,Yemen Arab Republic,1962
+918,Yemen Arab Republic,1967
+919,Yemen Arab Republic,1974
+920,Yemen Arab Republic,1978
+921,Zambia,1980
+922,Zambia,1981
+923,Zambia,1988
+924,Zambia,1990
+925,Zambia,1997
+926,Zimbabwe,1999
+927,Romania,0
+928,Moldova,0
+929,Slovenia,0
+930,Antigua and Barbuda,0
+931,Saint Kitts and Nevis,0
+932,Yemen,0
+933,France,0
+934,Singapore,0
+935,United Kingdom,0
+936,North Macedonia,0
+937,Samoa,0
+938,Tonga,0
+939,Marshall Islands,0
+940,Austria,0
+941,Finland,0
+942,Saint Vincent and the Grenadines,0
+943,Saudi Arabia,0
+944,Israel,0
+945,Japan,0
+946,North Korea,0
+947,Bahamas,0
+948,Switzerland,0
+949,Croatia,0
+950,New Zealand,0
+951,Micronesia,0
+952,United States,0
+953,Slovakia,0
+954,Belarus,0
+955,Belize,0
+956,Suriname,0
+957,Vanuatu,0
+958,Botswana,0
+959,SriLanka,0
+960,Congo,0
+961,South Africa,0
+962,Norway,0
+963,South Georgia and the South Sandwich Islands,0
+964,Saint Lucia,0
+965,Sweden,0
+966,Mauritius,0
+967,Belgium,0
+968,San Marino,0
+969,Monaco,0
+970,Germany,0
+971,Kazakstan,0
+972,Brunei,0
+973,Cape Verde,0
+974,Canada,0
+975,Latvia,0
+976,Namibia,0
+977,Uzbekistan,0
+978,Barbados,0
+979,Czech Republic,0
+980,Estonia,0
+981,Palestine,0
+982,Ireland,0
+983,Bosnia and Herzegovina,0
+984,Netherlands,0
+985,Bhutan,0
+986,Denmark,0
+987,Kuwait,0
+988,Iceland,0
+989,Kiribati,0
+990,Palau,0
+991,Australia,0
+992,Nauru,0
+993,Liechtenstein,0
+994,Malta,0
+995,Tuvalu,0
+996,Vietnam,0
+997,Anguilla,0
+998,Andorra,0
+999,Vatican City,0
+1000,India,0
