@@ -79,120 +79,121 @@
 77,Turkmenistan,1,0.16666666666666669,2.0,3,1
 78,Ukraine,1,0.16666666666666669,2.0,3,1
 79,Venezuela,7,1.1666666666666667,14.000000000000002,14,2
-80,Yemen,2,0.33333333333333337,4.0,5,1
+80,Yemen Arab Republic,2,0.33333333333333337,4.0,5,1
 81,Zambia,2,0.33333333333333337,4.0,5,1
 82,Zimbabwe,5,0.8333333333333334,10.0,10,1
-83,Brunei,4,1.0,7.0,7,2
-84,Uruguay,4,1.0,7.0,7,2
-85,Cyprus,4,1.0,7.0,7,2
-86,Canada,4,1.0,7.0,7,2
-87,Cameroon,4,1.0,7.0,7,2
-88,Dominican Republic,4,1.0,7.0,7,2
-89,Slovakia,4,1.0,7.0,7,2
-90,Vietnam,4,1.0,7.0,7,2
-91,Saint Kitts and Nevis,4,1.0,7.0,7,2
-92,Hungary,4,1.0,7.0,7,2
-93,Uganda,4,1.0,7.0,7,2
-94,Israel,4,1.0,7.0,7,2
-95,Lebanon,4,1.0,7.0,7,2
-96,Bhutan,4,1.0,7.0,7,2
-97,Greece,4,1.0,7.0,7,2
-98,Palau,4,1.0,7.0,7,2
-99,Monaco,4,1.0,7.0,7,2
-100,Iran,4,1.0,7.0,7,2
-101,Netherlands,4,1.0,7.0,7,2
-102,Tonga,4,1.0,7.0,7,2
-103,Slovenia,4,1.0,7.0,7,2
-104,Latvia,4,1.0,7.0,7,2
-105,Kiribati,4,1.0,7.0,7,2
-106,Norway,4,1.0,7.0,7,2
-107,Barbados,4,1.0,7.0,7,2
-108,Eswatini,4,1.0,7.0,7,2
-109,Kenya,4,1.0,7.0,7,2
-110,Poland,4,1.0,7.0,7,2
-111,Samoa,4,1.0,7.0,7,2
-112,Ghana,4,1.0,7.0,7,2
-113,Kuwait,4,1.0,7.0,7,2
-114,Belgium,4,1.0,7.0,7,2
-115,Saint Lucia,4,1.0,7.0,7,2
-116,Uzbekistan,4,1.0,7.0,7,2
-117,Nicaragua,4,1.0,7.0,7,2
-118,Portugal,4,1.0,7.0,7,2
-119,Cuba,4,1.0,7.0,7,2
-120,Angola,4,1.0,7.0,7,2
-121,Tuvalu,4,1.0,7.0,7,2
-122,Japan,4,1.0,7.0,7,2
-123,Brazil,4,1.0,7.0,7,2
-124,Bosnia and Herzegovina,4,1.0,7.0,7,2
-125,Estonia,4,1.0,7.0,7,2
-126,Nauru,4,1.0,7.0,7,2
-127,Romania,4,1.0,7.0,7,2
-128,Spain,4,1.0,7.0,7,2
-129,El Salvador,4,1.0,7.0,7,2
-130,Singapore,4,1.0,7.0,7,2
-131,Liechtenstein,4,1.0,7.0,7,2
-132,Austria,4,1.0,7.0,7,2
-133,Belize,4,1.0,7.0,7,2
-134,Germany,4,1.0,7.0,7,2
-135,France,4,1.0,7.0,7,2
-136,Palestine,4,1.0,7.0,7,2
-137,Jordan,4,1.0,7.0,7,2
-138,Denmark,4,1.0,7.0,7,2
-139,United Kingdom,4,1.0,7.0,7,2
-140,Chile,4,1.0,7.0,7,2
-141,Malta,4,1.0,7.0,7,2
-142,Mauritius,4,1.0,7.0,7,2
-143,Vatican City,4,1.0,7.0,7,2
-144,SriLanka,4,1.0,7.0,7,2
-145,North Korea,4,1.0,7.0,7,2
-146,Bolivia,4,1.0,7.0,7,2
-147,Malaysia,4,1.0,7.0,7,2
-148,Senegal,4,1.0,7.0,7,2
-149,Luxembourg,4,1.0,7.0,7,2
-150,Congo,4,1.0,7.0,7,2
-151,Vanuatu,4,1.0,7.0,7,2
-152,Andorra,4,1.0,7.0,7,2
-153,Saint Vincent and the Grenadines,4,1.0,7.0,7,2
-154,Mexico,4,1.0,7.0,7,2
-155,San Marino,4,1.0,7.0,7,2
-156,Grenada,4,1.0,7.0,7,2
-157,Ireland,4,1.0,7.0,7,2
-158,Marshall Islands,4,1.0,7.0,7,2
-159,Suriname,4,1.0,7.0,7,2
-160,Anguilla,4,1.0,7.0,7,2
-161,Finland,4,1.0,7.0,7,2
-162,South Georgia and the South Sandwich Islands,4,1.0,7.0,7,2
-163,New Zealand,4,1.0,7.0,7,2
-164,Dominica,4,1.0,7.0,7,2
-165,Bulgaria,4,1.0,7.0,7,2
-166,Seychelles,4,1.0,7.0,7,2
-167,India,4,1.0,7.0,7,2
-168,Iceland,4,1.0,7.0,7,2
-169,China,4,1.0,7.0,7,2
-170,Bahamas,4,1.0,7.0,7,2
-171,Micronesia,4,1.0,7.0,7,2
-172,Morocco,4,1.0,7.0,7,2
-173,North Macedonia,4,1.0,7.0,7,2
-174,Botswana,4,1.0,7.0,7,2
-175,Jamaica,4,1.0,7.0,7,2
-176,Guyana,4,1.0,7.0,7,2
-177,Croatia,4,1.0,7.0,7,2
-178,Cape Verde,4,1.0,7.0,7,2
-179,Kazakstan,4,1.0,7.0,7,2
-180,Tanzania,4,1.0,7.0,7,2
-181,Syria,4,1.0,7.0,7,2
-182,Australia,4,1.0,7.0,7,2
-183,United States,4,1.0,7.0,7,2
-184,Belarus,4,1.0,7.0,7,2
-185,Antigua and Barbuda,4,1.0,7.0,7,2
-186,Switzerland,4,1.0,7.0,7,2
-187,Costa Rica,4,1.0,7.0,7,2
-188,Czech Republic,4,1.0,7.0,7,2
-189,Benin,4,1.0,7.0,7,2
-190,United Arab Emirates,4,1.0,7.0,7,2
-191,Sweden,4,1.0,7.0,7,2
-192,Colombia,4,1.0,7.0,7,2
-193,Saudi Arabia,4,1.0,7.0,7,2
-194,South Africa,4,1.0,7.0,7,2
-195,Namibia,4,1.0,7.0,7,2
-196,Moldova,4,1.0,7.0,7,2
+83,Poland,4,1.0,7.0,7,2
+84,Nauru,4,1.0,7.0,7,2
+85,Estonia,4,1.0,7.0,7,2
+86,Uganda,4,1.0,7.0,7,2
+87,Netherlands,4,1.0,7.0,7,2
+88,Bolivia,4,1.0,7.0,7,2
+89,Cape Verde,4,1.0,7.0,7,2
+90,North Macedonia,4,1.0,7.0,7,2
+91,Norway,4,1.0,7.0,7,2
+92,Yemen,4,1.0,7.0,7,2
+93,Portugal,4,1.0,7.0,7,2
+94,Canada,4,1.0,7.0,7,2
+95,Barbados,4,1.0,7.0,7,2
+96,Morocco,4,1.0,7.0,7,2
+97,Malaysia,4,1.0,7.0,7,2
+98,Syria,4,1.0,7.0,7,2
+99,Belarus,4,1.0,7.0,7,2
+100,Kazakstan,4,1.0,7.0,7,2
+101,Bosnia and Herzegovina,4,1.0,7.0,7,2
+102,Jamaica,4,1.0,7.0,7,2
+103,Palau,4,1.0,7.0,7,2
+104,Dominica,4,1.0,7.0,7,2
+105,Tuvalu,4,1.0,7.0,7,2
+106,Kenya,4,1.0,7.0,7,2
+107,Eswatini,4,1.0,7.0,7,2
+108,Kiribati,4,1.0,7.0,7,2
+109,Tanzania,4,1.0,7.0,7,2
+110,Benin,4,1.0,7.0,7,2
+111,Iran,4,1.0,7.0,7,2
+112,Antigua and Barbuda,4,1.0,7.0,7,2
+113,Saint Vincent and the Grenadines,4,1.0,7.0,7,2
+114,Spain,4,1.0,7.0,7,2
+115,Guyana,4,1.0,7.0,7,2
+116,Seychelles,4,1.0,7.0,7,2
+117,Ghana,4,1.0,7.0,7,2
+118,Senegal,4,1.0,7.0,7,2
+119,Samoa,4,1.0,7.0,7,2
+120,Luxembourg,4,1.0,7.0,7,2
+121,South Georgia and the South Sandwich Islands,4,1.0,7.0,7,2
+122,India,4,1.0,7.0,7,2
+123,Bhutan,4,1.0,7.0,7,2
+124,Vietnam,4,1.0,7.0,7,2
+125,El Salvador,4,1.0,7.0,7,2
+126,Lebanon,4,1.0,7.0,7,2
+127,Nicaragua,4,1.0,7.0,7,2
+128,Belgium,4,1.0,7.0,7,2
+129,Malta,4,1.0,7.0,7,2
+130,Monaco,4,1.0,7.0,7,2
+131,Slovakia,4,1.0,7.0,7,2
+132,Marshall Islands,4,1.0,7.0,7,2
+133,Brunei,4,1.0,7.0,7,2
+134,Ireland,4,1.0,7.0,7,2
+135,Saint Lucia,4,1.0,7.0,7,2
+136,Hungary,4,1.0,7.0,7,2
+137,Israel,4,1.0,7.0,7,2
+138,Austria,4,1.0,7.0,7,2
+139,Kuwait,4,1.0,7.0,7,2
+140,Costa Rica,4,1.0,7.0,7,2
+141,China,4,1.0,7.0,7,2
+142,San Marino,4,1.0,7.0,7,2
+143,United Arab Emirates,4,1.0,7.0,7,2
+144,Latvia,4,1.0,7.0,7,2
+145,Suriname,4,1.0,7.0,7,2
+146,Saudi Arabia,4,1.0,7.0,7,2
+147,United States,4,1.0,7.0,7,2
+148,Australia,4,1.0,7.0,7,2
+149,Czech Republic,4,1.0,7.0,7,2
+150,Uzbekistan,4,1.0,7.0,7,2
+151,Cyprus,4,1.0,7.0,7,2
+152,South Africa,4,1.0,7.0,7,2
+153,Chile,4,1.0,7.0,7,2
+154,Congo,4,1.0,7.0,7,2
+155,Bulgaria,4,1.0,7.0,7,2
+156,Micronesia,4,1.0,7.0,7,2
+157,Saint Kitts and Nevis,4,1.0,7.0,7,2
+158,Namibia,4,1.0,7.0,7,2
+159,Belize,4,1.0,7.0,7,2
+160,Iceland,4,1.0,7.0,7,2
+161,Tonga,4,1.0,7.0,7,2
+162,Palestine,4,1.0,7.0,7,2
+163,Switzerland,4,1.0,7.0,7,2
+164,New Zealand,4,1.0,7.0,7,2
+165,Jordan,4,1.0,7.0,7,2
+166,Finland,4,1.0,7.0,7,2
+167,Slovenia,4,1.0,7.0,7,2
+168,Liechtenstein,4,1.0,7.0,7,2
+169,Grenada,4,1.0,7.0,7,2
+170,Vatican City,4,1.0,7.0,7,2
+171,Cameroon,4,1.0,7.0,7,2
+172,Uruguay,4,1.0,7.0,7,2
+173,Moldova,4,1.0,7.0,7,2
+174,SriLanka,4,1.0,7.0,7,2
+175,Botswana,4,1.0,7.0,7,2
+176,Germany,4,1.0,7.0,7,2
+177,France,4,1.0,7.0,7,2
+178,Sweden,4,1.0,7.0,7,2
+179,Vanuatu,4,1.0,7.0,7,2
+180,Bahamas,4,1.0,7.0,7,2
+181,Mexico,4,1.0,7.0,7,2
+182,United Kingdom,4,1.0,7.0,7,2
+183,Romania,4,1.0,7.0,7,2
+184,Croatia,4,1.0,7.0,7,2
+185,Angola,4,1.0,7.0,7,2
+186,Anguilla,4,1.0,7.0,7,2
+187,Singapore,4,1.0,7.0,7,2
+188,Andorra,4,1.0,7.0,7,2
+189,Denmark,4,1.0,7.0,7,2
+190,Colombia,4,1.0,7.0,7,2
+191,Dominican Republic,4,1.0,7.0,7,2
+192,Greece,4,1.0,7.0,7,2
+193,Cuba,4,1.0,7.0,7,2
+194,Brazil,4,1.0,7.0,7,2
+195,North Korea,4,1.0,7.0,7,2
+196,Japan,4,1.0,7.0,7,2
+197,Mauritius,4,1.0,7.0,7,2
