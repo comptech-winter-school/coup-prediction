@@ -1,4 +1,4 @@
-
-!/CoupPrediction/db.sqlite3
-!/CoupPrediction/venv/
-!/CoupPrediction/.idea/
+/CoupPrediction/db.sqlite3
+/.idea/*
+/CoupPrediction/venv/*
+/CoupPrediction/.idea/*
