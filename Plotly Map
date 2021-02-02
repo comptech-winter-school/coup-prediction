@@ -1,0 +1,20 @@
+import json
+import pandas as pd
+import plotly.express as px
+
+
+with open('Custom.geo(middle).json', encoding='utf-8') as response:
+    counties = json.load(response)
+
+df = pd.read_csv('population.csv')
+
+
+fig = px.choropleth(df, geojson=counties, locations='country', color='pop_num',
+                           color_continuous_scale='emrld',
+                           range_color=(0, df['pop_num'].max()),
+                           scope="world",
+                           featureidkey="properties.geounit",
+                           labels={'pop_num':'Population'}
+                          )
+fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
+fig.show()
