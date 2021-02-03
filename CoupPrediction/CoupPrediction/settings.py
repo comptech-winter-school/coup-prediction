@@ -25,12 +25,15 @@ SECRET_KEY = '8$x&*edajhi)v96mvr5k@3=s8+qf6z=bq*_c0ne9j22an%uy5p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['coup-etat.ru']
+ALLOWED_HOSTS = ['coup-etat.ru',
+                 '127.0.0.1',
+                 '35933caee3ef.ngrok.io']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'CoupPredictionApp',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
