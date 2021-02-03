@@ -13,5 +13,6 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.PRIVATE_KEY }}
+        port: ${{ secrets.PORT }}
         script: |
           sudo service gunicorn restart
