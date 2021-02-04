@@ -3,6 +3,7 @@ from django.shortcuts import render
 import os
 import json
 import pandas as pd
+from plotly.offline import plot
 import plotly.express as px
 
 
@@ -20,7 +21,6 @@ def index(request):
     counties = json.load(response)
 
     df = pd.read_csv(os.path.dirname(os.path.realpath(__file__)) + '/population.csv')
-
     fig = px.choropleth(df, geojson=counties, locations='country', color='pop_num',
                         color_continuous_scale='emrld',
                         range_color=(0, df['pop_num'].max()),
@@ -29,4 +29,4 @@ def index(request):
                         labels={'pop_num': 'Population'}
                         )
     fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
-    return render(request, 'CoupPredictionApp/index.html', context={'plot_div': fig.to_html})
+    return render(request, 'CoupPredictionApp/main.html', context={'plot_div': plot(fig, output_type='div')})

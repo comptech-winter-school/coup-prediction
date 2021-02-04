@@ -22,12 +22,16 @@
     <meta name="robots" content="nofollow">
     <link rel="shortcut icon" href="https://static.tildacdn.com/img/tildafavicon.ico" type="image/x-icon">
     <!-- Assets -->
-    <link rel="stylesheet" href="{% static 'CoupPredictionApp/css/tilda-grid-3.0.min.css' %}" type="text/css" media="all">
-    <link rel="stylesheet" href="{% static 'CoupPredictionApp/css/tilda-blocks-2.12.css' %}" type="text/css" media="all">
+    <link rel="stylesheet" href="{% static 'CoupPredictionApp/css/tilda-grid-3.0.min.css' %}" type="text/css"
+          media="all">
+    <link rel="stylesheet" href="{% static 'CoupPredictionApp/css/tilda-blocks-2.12.css' %}" type="text/css"
+          media="all">
     <link rel="stylesheet" href="{% static 'CoupPredictionApp/css/tilda-animation-1.0.min.css' %}" type="text/css"
           media="all">
-    <link rel="stylesheet" href="{% static 'CoupPredictionApp/css/tilda-slds-1.4.min.css' %}" type="text/css" media="all">
-    <link rel="stylesheet" href="{% static 'CoupPredictionApp/css/tilda-zoom-2.0.min.css' %}" type="text/css" media="all">
+    <link rel="stylesheet" href="{% static 'CoupPredictionApp/css/tilda-slds-1.4.min.css' %}" type="text/css"
+          media="all">
+    <link rel="stylesheet" href="{% static 'CoupPredictionApp/css/tilda-zoom-2.0.min.css' %}" type="text/css"
+          media="all">
     <script type="text/javascript" async="" id="tildastatscript"
             src="{% static 'CoupPredictionApp/js/tildasimplestat-0.1.min.js' %}"></script>
     <script src="{% static 'CoupPredictionApp/js/jquery-1.10.2.min.js' %}"></script>
@@ -116,9 +120,14 @@
                  src=""></div>
             <div class="t-cover__filter"
                  style="height:100vh;background-image: -moz-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -o-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -ms-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=&#39;#fe000000&#39;, endColorstr=&#39;#fe000000&#39;);"></div>
+
             <div class="t148">
                 <div class="t-container_100">
-                    <div class="t-cover__wrapper t-valign_bottom" style="height:100vh;"></div>
+                    <div class="t-cover__wrapper t-valign_bottom" style="height:100vh;">
+                        {% autoescape off %}
+                            {{ plot_div }}
+                        {% endautoescape %}
+                    </div>
                 </div>
             </div>
         </div>
@@ -126,6 +135,7 @@
     <div id="rec276544754" class="r t-rec t-rec_pt_210 t-rec_pb_45"
          style="padding-top:210px;padding-bottom:45px;background-color:#000000; " data-record-type="127"
          data-bg-color="#000000" data-animationappear="off"><!-- T119 -->
+
         <div class="t119">
             <div class="t-container ">
                 <div class="t-col t-col_8 t-prefix_2">
