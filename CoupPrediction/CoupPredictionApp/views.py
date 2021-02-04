@@ -29,4 +29,4 @@ def index(request):
                         labels={'pop_num': 'Population'}
                         )
     fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
-    return render(request, 'CoupPredictionApp/index.html', context={'plot_div': fig.show()})
+    return render(request, 'CoupPredictionApp/index.html', context={'plot_div': fig.to_html})
