@@ -16,10 +16,10 @@ def datasets_page(request):
 
 
 def index(request):
-    response = open(os.path.dirname(os.path.realpath(__file__)) + '\\geo.json', "r")
+    response = open(os.path.dirname(os.path.realpath(__file__)) + '/geo.json', "r")
     counties = json.load(response)
 
-    df = pd.read_csv(os.path.dirname(os.path.realpath(__file__)) + '\\population.csv')
+    df = pd.read_csv(os.path.dirname(os.path.realpath(__file__)) + '/population.csv')
 
     fig = px.choropleth(df, geojson=counties, locations='country', color='pop_num',
                         color_continuous_scale='emrld',
