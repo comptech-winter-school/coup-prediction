@@ -7,6 +7,5 @@ def main_page(request):
     return render(request, 'CoupPredictionApp/main.html')
 
 
-def about_page(request):
-    return HttpResponse('<h4>Мы команда студентов, которая разрабатывает проект по предсказанию госпереворота '
-                        'в той или иной стране, в рамках зимней IT-школы</h4>')
+def datasets_page(request):
+    return render(request, 'CoupPredictionApp/Review.html')
