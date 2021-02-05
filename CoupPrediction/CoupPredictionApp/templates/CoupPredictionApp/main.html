@@ -111,16 +111,21 @@
                  data-content-cover-height="100vh" data-content-cover-parallax=""
                  style="height: 100vh; background-attachment: scroll; background-image: url(&quot;https://thumb.tildacdn.com/tild6132-3261-4639-b430-643537353737/-/format/webp/__.png&quot;);"
                  src=""></div>
-            <div class="t-cover__filter"
-                 style="height:100vh;background-image: -moz-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -o-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -ms-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=&#39;#fe000000&#39;, endColorstr=&#39;#fe000000&#39;);"></div>
+{#            <div class="t-cover__filter">#}
+{##}
+{#            </div>#}
 
             <div class="t148">
                 <div class="t-container_100">
-                    <!-- div class="t-cover__wrapper t-valign_bottom" style="height:100vh;" -->
-                        {% autoescape off %}
-                            {{ plot_div }}
-                        {% endautoescape %}
-                    <!-- /div -->
+                    <div class="t-cover__wrapper t-valign_bottom" style="height:100vh; float: left">
+                    </div>
+                                        <div class="block-heading" style="position: absolute; top: 100px; left: 300px; width: 900px">
+                                            <br>
+                                            {% autoescape off %}
+                                                {{ plot_div }}
+                                            {% endautoescape %}
+
+                                        </div>
                 </div>
             </div>
         </div>
