@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Госперевороты</title>
-    <meta name="description" content="Предсказание вероятности государственных переворотов на основании исторических данных и новостных источников">
+    <meta name="description"
+          content="Предсказание вероятности государственных переворотов на основании исторических данных и новостных источников">
     <link rel="stylesheet" href="{% static '/bootstrap/css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="{% static '/fonts/simple-line-icons.min.css' %}">
@@ -14,65 +15,77 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
-        <div class="container"><a class="navbar-brand logo" href="#">Госперевороты</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link active" href="/">Карта</a></li>
-                    <li class="nav-item"><a class="nav-link" href="datasets">Данные</a></li>
-                </ul>
-            </div>
+<nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+    <div class="container"><a class="navbar-brand logo" href="#">Госперевороты</a>
+        <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link active" href="/">Карта</a></li>
+                <li class="nav-item"><a class="nav-link" href="datasets">Данные</a></li>
+            </ul>
         </div>
-    </nav>
-    <section class="clean-block features">
-        <div class="container">
+    </div>
+</nav>
+<section class="clean-block features">
+    <div class="container">
         <div class="block-heading">
-        <br>
-        <h2>Здесь какой-то заголовок</h2>
-    {% autoescape off %}
-    {{ plot_div }}
-    {% endautoescape %}
+            <br>
+            <h2 style="font-size: 16px">Мы используем исторические данные и машинное обучение для прогнозирования вероятности попытки государственного переворота в любой стране на ежемесячной основе. Используя историческую активность, мы определяем базовые факторы риска и краткосрочные триггеры, которые значительно повышают вероятность переворота. Все данные являются открытыми, несекретными и доступны на вкладке с данными.</h2>
+            {% autoescape off %}
+                {{ plot_div }}
+            {% endautoescape %}
 
-        </div
         </div>
-        </section>
-        <section class="clean-block features">
-            <div class="container">
-                <div class="block-heading">
-                    <h2 class="text-info">Features</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-5 feature-box"><i class="icon-star icon"></i>
-                        <h4>Bootstrap 4</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                    </div>
-                    <div class="col-md-5 feature-box"><i class="icon-pencil icon"></i>
-                        <h4>Customizable</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                    </div>
-                    <div class="col-md-5 feature-box"><i class="icon-screen-smartphone icon"></i>
-                        <h4>Responsive</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                    </div>
-                    <div class="col-md-5 feature-box"><i class="icon-refresh icon"></i>
-                        <h4>All Browser Compatibility</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                    </div>
-                </div>
+    </div>
+</section>
+<section class="clean-block features">
+    <div class="container">
+        <div class="block-heading">
+            <h2 class="text-info">Features</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis
+                vitae leo.</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-5 feature-box"><i class="icon-star icon"></i>
+                <h4>Bootstrap 4</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in,
+                    mattis vitae leo.</p>
             </div>
-        </section>
-    </main>
-    <footer class="page-footer dark">
-        <div class="footer-copyright">
-            <p>© 2021 Copyright Text</p>
+            <div class="col-md-5 feature-box"><i class="icon-pencil icon"></i>
+                <h4>Customizable</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in,
+                    mattis vitae leo.</p>
+            </div>
+            <div class="col-md-5 feature-box"><i class="icon-screen-smartphone icon"></i>
+                <h4>Responsive</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in,
+                    mattis vitae leo.</p>
+            </div>
+            <div class="col-md-5 feature-box"><i class="icon-refresh icon"></i>
+                <h4>All Browser Compatibility</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in,
+                    mattis vitae leo.</p>
+            </div>
         </div>
-    </footer>
-    <script src="{% static '/js/jquery.min.js' %}"></script>
-    <script src="{% static '/bootstrap/js/bootstrap.min.js' %}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script src="{% static '/js/smoothproducts.min.js' %}"></script>
-    <script src="{% static '/js/theme.js' %}"></script>
+    </div>
+</section>
+</main>
+<footer class="page-footer dark">
+    <div class="footer-copyright">
+        <div class="t345-text t-descr t-descr_xxs" style="color:#ffffff;">support@promsoft.ru&nbsp;
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;anastmezentseva@gmail.com&nbsp;
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;e.pavlov1@g.nsu.ru<br>alexmar99999@gmail.com&nbsp;
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;fominakristina1999@yandex.ru<br>g.vosorov2013@yandex.ru&nbsp;
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mikhail.kalinichenko.1999@gmail.com
+        </div>
+    </div>
+</footer>
+<script src="{% static '/js/jquery.min.js' %}"></script>
+<script src="{% static '/bootstrap/js/bootstrap.min.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+<script src="{% static '/js/smoothproducts.min.js' %}"></script>
+<script src="{% static '/js/theme.js' %}"></script>
 </body>
 
 </html>
