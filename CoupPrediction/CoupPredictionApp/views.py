@@ -8,15 +8,11 @@ import plotly.express as px
 
 
 # Create your views here.
-def main_page(request):
-    return render(request, 'CoupPredictionApp/main.html')
-
-
 def datasets_page(request):
     return render(request, 'CoupPredictionApp/Review.html')
 
 
-def index(request):
+def main_page(request):
     response = open(os.path.dirname(os.path.realpath(__file__)) + '/geo.json', "r")
     counties = json.load(response)
 
