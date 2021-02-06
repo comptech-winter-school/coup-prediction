@@ -2738,6 +2738,10 @@ img:not([src]) {
     line-height: 1.35
 }
 
+.t120__preface span{
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 640px) {
     .t119__preface {
         font-size: 22px
