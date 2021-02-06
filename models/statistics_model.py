@@ -27,7 +27,7 @@ def coup_detat_clean(filename, start_year, end_year):
 
 class StasticsModel:
 
-    def __init__(self, etalon_file, dataset_file_path, start_year, end_year):
+    def __init__(self, etalon_file: str, dataset_file_path: str, start_year: str, end_year: str):
         self.etalon_dataset = pd.read_csv(etalon_file, encoding='utf-8', delimiter=',', error_bad_lines=False)
         self.dataset_file = dataset_file_path
         self.a = 0.1
@@ -38,11 +38,17 @@ class StasticsModel:
         self.result_path = result_path
         self.start_year = start_year
         self.end_year = end_year
-        self.result_path = 'data/probas_for_coup_detait_with_un' +str(end_year) +'.csv'
+        self.result_path = 'data/probas_for_coup_detait_with_un' + str(end_year) + '.csv'
 
     def get_file_with_predicted_probas(self):
         result_data = self._get_result_frame()
         result_data.to_csv(self.result_path, encoding='utf-8')
+
+    def predict(self, country_name: str) -> str:
+        result_frame = self._get_result_frame()
+        result_frame_filtered = result_frame[result_frame.country == country_name]
+        result_proba = result_frame_filtered['p_year_smooth']
+        return str(result_proba)
 
     def _compute_probas(self):
         # частотность переворотов за последние 30 лет
@@ -75,7 +81,7 @@ class StasticsModel:
 
         return self.result_coup_data
 
-    def _write_values_to_column(self, column_name, values_list):
+    def _write_values_to_column(self, column_name: str, values_list: list):
         self.result_coup_data[column_name] = values_list
 
     def _get_result_frame(self):
@@ -97,5 +103,5 @@ class StasticsModel:
 
 
 if __name__ == '__main__':
-    model = StasticsModel('../data/etalon_country_list.csv', 'data/Coup_Data_v2.0.0.csv', 1989, 2015)
+    model = StasticsModel('../data/etalon_country_list.csv', 'data/Coup_Data_v2.0.0.csv', '1989', '2015')
     model.get_file_with_predicted_probas()
