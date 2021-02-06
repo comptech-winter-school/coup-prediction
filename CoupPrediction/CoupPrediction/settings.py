@@ -25,7 +25,7 @@ SECRET_KEY = '8$x&*edajhi)v96mvr5k@3=s8+qf6z=bq*_c0ne9j22an%uy5p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['a358be2eaa80.ngrok.io',
+ALLOWED_HOSTS = ['coup-d-etat.ru',
                  '127.0.0.1']
 
 
