@@ -1,7 +1,8 @@
 import pandas as pd
 import math
 
-def coup_detat_clean(filename, start_year):
+
+def coup_detat_clean(filename, start_year, end_year):
     dataset = pd.read_csv(filename, encoding='utf-8', delimiter=',', error_bad_lines=False)
     # убираем уже не существующие страны
     old_countries = ['Czechoslovakia', 'Yemen PDR', 'USSR']
@@ -18,6 +19,7 @@ def coup_detat_clean(filename, start_year):
     data = pd.read_csv('data/Coup_Data_v2.0.0_clean.csv', encoding='utf-8', delimiter=',', error_bad_lines=False)
     # госперевороты для заданного периода
     data_filtered = data[data['year'] > start_year]
+    data_filtered = data_filtered[data['year'] > end_year]
     # сортировка стран по алфавиту
     data_country_filtered = data_filtered.sort_values('country', ascending=True)
     return data_country_filtered
@@ -25,7 +27,7 @@ def coup_detat_clean(filename, start_year):
 
 class StasticsModel:
 
-    def __init__(self, etalon_file, dataset_file_path, result_path, start_year):
+    def __init__(self, etalon_file, dataset_file_path, start_year, end_year):
         self.etalon_dataset = pd.read_csv(etalon_file, encoding='utf-8', delimiter=',', error_bad_lines=False)
         self.dataset_file = dataset_file_path
         self.a = 0.1
@@ -35,6 +37,8 @@ class StasticsModel:
         self.p_month_smooth = list()
         self.result_path = result_path
         self.start_year = start_year
+        self.end_year = end_year
+        self.result_path = 'data/probas_for_coup_detait_with_un' +str(end_year) +'.csv'
 
     def get_file_with_predicted_probas(self):
         result_data = self._get_result_frame()
@@ -43,7 +47,7 @@ class StasticsModel:
     def _compute_probas(self):
         # частотность переворотов за последние 30 лет
         # количество переворотов == количество строчек с этой страной
-        data_filtered = coup_detat_clean(self.dataset_file, self.start_year)
+        data_filtered = coup_detat_clean(self.dataset_file, self.start_year, self.end_year)
         data_country_numbered = data_filtered.groupby('country').count()
         coup_numbers = list(data_country_numbered['coup_id'])
         # таблица для записи итоговых данных
@@ -93,6 +97,5 @@ class StasticsModel:
 
 
 if __name__ == '__main__':
-    model = StasticsModel('../data/etalon_country_list.csv', 'data/Coup_Data_v2.0.0.csv',
-                          'data/probas_for_coup_detait_with_un.csv', 1989)
+    model = StasticsModel('../data/etalon_country_list.csv', 'data/Coup_Data_v2.0.0.csv', 1989, 2015)
     model.get_file_with_predicted_probas()
