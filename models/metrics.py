@@ -14,4 +14,4 @@ y_pred = list(predicted_dataset['p_year'])
 roc_curve(y_true, y_test)
 
 F_mera = f1_score(y_test, predicted)
-confusion_matrix(y_test, predicted))
+confusion_matrix(y_test, predicted)
