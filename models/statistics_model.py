@@ -17,8 +17,8 @@ def data_preprocess(filename, start_year, end_year, periorised=False):
     # запись фрейма в файл
     # госперевороты для заданного периода
     if periorised:
-        data_filtered = clean_data[clean_data['year'] > start_year]
-        data_filtered = data_filtered[data_filtered['year'] > end_year]
+        data_filtered = clean_data[clean_data['year'] > int(start_year)]
+        data_filtered = data_filtered[data_filtered['year'] > int(end_year)]
         data = data_filtered
     else:
         data = clean_data
@@ -54,7 +54,7 @@ class StasticsModel:
     def _compute_probas(self):
         # частотность переворотов за последние 30 лет
         # количество переворотов == количество строчек с этой страной
-        data_filtered = data_preprocess(self.dataset_file, self.start_year, self.end_year)
+        data_filtered = data_preprocess(self.dataset_file, self.start_year, self.end_year, periorised=True)
         data_country_numbered = data_filtered.groupby('country').count()
         coup_numbers = list(data_country_numbered['coup_id'])
         # таблица для записи итоговых данных
