@@ -1,6 +1,4 @@
 import pandas as pd
-import math
-
 
 def data_preprocess(filename, start_year, end_year, periorised=False):
     dataset = pd.read_csv(filename, encoding='utf-8', delimiter=',', error_bad_lines=False)
@@ -66,16 +64,17 @@ class StasticsModel:
         # частоты по годам
         for num in self.result_coup_data['coup_num']:
             self.p_year.append(num / 50 * 100)
+
         self._write_values_to_column('p_month', self.p_month)
         self._write_values_to_column('p_year', self.p_year)
         # сглаженные частоты по месяцам
         m = self.result_coup_data['p_month'].mean()
         for p in self.result_coup_data['p_month']:
-            self.p_month_smooth.append(math.ceil((1 - self.a) * p + self.a * m))
+            self.p_month_smooth.append((1 - self.a) * p + self.a * m)
         # сглаженные частоты по годам
         m = self.result_coup_data['p_year'].mean()
         for p in self.result_coup_data['p_year']:
-            self.p_year_smooth.append(math.ceil((1 - self.a) * p + self.a * m))
+            self.p_year_smooth.append((1 - self.a) * p + self.a * m)
         # запись значение в фрейм
         self._write_values_to_column('p_month_smooth', self.p_month_smooth)
         self._write_values_to_column('p_year_smooth', self.p_year_smooth)
@@ -90,11 +89,11 @@ class StasticsModel:
         # добавляем в список стран, которых не было в Coup d'etait
         list_for_adding = list(set(self.etalon_dataset['country']) - set(self.result_coup_data['country']))
         # частоты для них проставляем средние
-        p_month_smooth_average = math.ceil(self.result_coup_data['p_month_smooth'].mean())
-        p_month_average = math.ceil(self.result_coup_data['p_month'].mean())
-        p_year_smooth_average = math.ceil(self.result_coup_data['p_year_smooth'].mean())
-        p_year_average = math.ceil(self.result_coup_data['p_year'].mean())
-        coup_average = math.ceil(self.result_coup_data['coup_num'].mean())
+        p_month_smooth_average = self.result_coup_data['p_month_smooth'].mean()
+        p_month_average = self.result_coup_data['p_month'].mean()
+        p_year_smooth_average = self.result_coup_data['p_year_smooth'].mean()
+        p_year_average = self.result_coup_data['p_year'].mean()
+        coup_average = self.result_coup_data['coup_num'].mean()
         data_un = pd.DataFrame(
             {'country': list_for_adding, 'coup_num': coup_average, 'p_month': p_month_average, 'p_year': p_year_average,
              'p_year_smooth': p_year_smooth_average, 'p_month_smooth': p_month_smooth_average},
