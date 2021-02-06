@@ -25,6 +25,7 @@
 ## Ресурсы
 
 https://databank.illinois.edu/datasets/IDB-0433268 - датасет переворотов с документацией
+
 https://www.oefresearch.org/activities/coup-cast - сайт с предсказанием государственных переворотов
 
 
