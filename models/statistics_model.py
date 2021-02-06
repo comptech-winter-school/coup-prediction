@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def data_preprocess(filename, start_year, end_year, periorised=False):
     dataset = pd.read_csv(filename, encoding='utf-8', delimiter=',', error_bad_lines=False)
     # убираем уже не существующие страны
@@ -16,7 +17,7 @@ def data_preprocess(filename, start_year, end_year, periorised=False):
     # госперевороты для заданного периода
     if periorised:
         data_filtered = clean_data[clean_data['year'] > int(start_year)]
-        data_filtered = data_filtered[data_filtered['year'] > int(end_year)]
+        data_filtered = data_filtered[data_filtered['year'] < int(end_year)]
         data = data_filtered
     else:
         data = clean_data
@@ -61,8 +62,6 @@ class StasticsModel:
 
         for num in self.result_coup_data['coup_num']:
             self.p_month.append(num / 600 * 100)
-        # частоты по годам
-        for num in self.result_coup_data['coup_num']:
             self.p_year.append(num / 50 * 100)
 
         self._write_values_to_column('p_month', self.p_month)
@@ -103,5 +102,5 @@ class StasticsModel:
 
 
 if __name__ == '__main__':
-    model = StasticsModel('../data/etalon_country_list.csv', 'data/Coup_Data_v2.0.0.csv', '1989', '2015')
+    model = StasticsModel('../data/etalon_country_list.csv', 'data/Coup_Data_v2.0.0.csv', '1989', '2016')
     model.get_file_with_predicted_probas()
