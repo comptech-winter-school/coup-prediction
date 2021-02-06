@@ -2,3 +2,5 @@
 /.idea/*
 /CoupPrediction/venv/*
 /CoupPrediction/.idea/*
+/ngrok.exe
+/CoupPrediction/ngrok.exe

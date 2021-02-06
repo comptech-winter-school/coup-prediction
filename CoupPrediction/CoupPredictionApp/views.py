@@ -16,10 +16,10 @@ def main_page(request):
     response = open(os.path.dirname(os.path.realpath(__file__)) + '/geo.json', "r")
     counties = json.load(response)
 
-    df = pd.read_csv(os.path.dirname(os.path.realpath(__file__)) + '/population.csv')
-    fig = px.choropleth(df, geojson=counties, locations='country', color='pop_num',
-                        color_continuous_scale='emrld',
-                        range_color=(0, df['pop_num'].max()),
+    df = pd.read_csv(os.path.dirname(os.path.realpath(__file__)) + '/prediction.csv')
+    fig = px.choropleth(df, geojson=counties, locations='country', color='p_year_smooth',
+                        color_continuous_scale='plasma',
+                        range_color=(0, df['p_year_smooth'].max()),
                         scope="world",
                         featureidkey="properties.geounit",
                         labels={'pop_num': 'Population'}
